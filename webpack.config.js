@@ -9,7 +9,7 @@ module.exports = {
         main: "./src/main.js"
     },
     output: {
-        path: path.resolve(__dirname, 'index'),
+        path: path.resolve(__dirname, 'home'),
         filename: '[name][hash:6].js'
     },
 
@@ -38,7 +38,7 @@ module.exports = {
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
             title: '',
-            filename: '../index/index.html',
+            filename: '../home/index.html',
             template: "./index.html",
             inject: true,//true或body插入到底部,
             favicon: './icon.jpg',
