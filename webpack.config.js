@@ -40,7 +40,8 @@ module.exports = {
             title: '',
             filename: '../index/index.html',
             template: "./index.html",
-            inject: true//true或body插入到底部
+            inject: true,//true或body插入到底部,
+            favicon: './icon.jpg',
         }),
         //抽出css文件
         new ExtractTextPlugin({
